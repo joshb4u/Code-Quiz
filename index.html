@@ -1,44 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Code Quiz</title>
+    <title> Coding Quiz</title>
 </head>
+
 <body>
-    <!-- High Score List -->
-    <p id="viewHighscores">View Highscores</p>
-    <!-- Start/ Main Page of the Quiz -->
+
+      <!-- VIEW HIGHSCORES -->
+      <p id="viewHighscores">View Highscores</p>
+    <!-- MAIN/START PAGE -->
     <div id="startPage">
+        <!-- QUIZ START BUTTON -->
         <h1>Coding Quiz Challenge</h1>
-        <!-- Quiz Start Button -->
         <div id="startQuizButton">
-            <button id="BeginQuiz">Begin Quiz</button>
+            <button id="startQuiz">Start Quiz</button>
         </div>
     </div>
-    <!-- Quiz Questions & Options -->
-    <div id="quiz">
+
+    <!-- QUIZ QUESTIONS WITH OPTIONS -->
+    <div id="quiz" style="display: none;">
         <p id="timer"></p>
         <h1 id="questions"></h1>
+
         <div id="options"></div>
+
         <h2 id="status"></h2>
     </div>
-    <!-- Quiz end page -->
-    <div id="finalScore">
+
+    <!-- QUIZ END PAGE -->
+    <div id="finalScore" style="display: none;">
         <h1>Quiz Over!</h1>
         <p id="displayScore"></p>
-        <!-- Enter Name -->
+
+        <!-- ENTER NAME FOR HIGHSCORE LIST -->
         <form id="enterName">
-            <input id="name" placeholder="Enter name" value=""/>
+            <input id="name" type="text" placeholder="Enter name" value="" />
             <button type="submit">Submit</button>
         </form>
     </div>
-    <!-- Highscore List -->
-    <div id="pageScore">
+
+    <!-- HIGHSCORE PAGE -->
+    <div id="pageScore" style="display: none;">
         <h1>High Scores</h1>
         <ol id="highScoreList"></ol>
         <button id="goBack">Go Back</button>
     </div>
+
 </body>
-<script src="quiz.js"></script>
+<script src="script.js"></script>
+
 </html>
