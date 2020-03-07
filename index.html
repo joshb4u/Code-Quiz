@@ -3,9 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Code Quiz</title>
 </head>
 <body>
-    
+    <!-- High Score List -->
+    <p id="viewHighscores">View Highscores</p>
+    <!-- Start/ Main Page of the Quiz -->
+    <div id="startPage">
+        <h1>Coding Quiz Challenge</h1>
+        <!-- Quiz Start Button -->
+        <div id="startQuizButton">
+            <button id="BeginQuiz">Begin Quiz</button>
+        </div>
+    </div>
+    <!-- Quiz Questions & Options -->
+    <div id="quiz">
+        <p id="timer"></p>
+        <h1 id="questions"></h1>
+        <div id="options"></div>
+        <h2 id="status"></h2>
+    </div>
+    <!-- Quiz end page -->
+    <div id="finalScore">
+        <h1>Quiz Over!</h1>
+        <p id="displayScore"></p>
+        <!-- Enter Name -->
+        <form id="enterName">
+            <input id="name" placeholder="Enter name" value=""/>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <!-- Highscore List -->
+    <div id="pageScore">
+        <h1>High Scores</h1>
+        <ol id="highScoreList"></ol>
+        <button id="goBack">Go Back</button>
+    </div>
 </body>
+<script src="quiz.js"></script>
 </html>
