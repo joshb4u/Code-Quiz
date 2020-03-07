@@ -12,4 +12,16 @@
 10. Another function needs to be created to move to the next question once any option button is clicked.
 11. Create a function to display the quiz end page once the quiz gets over and also it needs to display text to input the user name for high scores.
 12. Finally a function needs to be created to display the high-scores list.
-13. High score buttons, go back button and clear buttons are also created to serve their purposes as shown in gif image.
+13. High score buttons, go back button <del> and clear buttons </del> are also created to serve their purposes as shown in gif image.
+
+SCREENSHOTS ATTACHED BELOW:
+![Screenshot 1](Assets/01.png)
+![Screenshot 2](Assets/02.png)
+![Screenshot 3](Assets/03.png)
+![Screenshot 4](Assets/04.png)
+![Screenshot 5](Assets/05.png)
+![Screenshot 6](Assets/06.png)
+![Screenshot 7](Assets/07.png)
+![Screenshot 8](Assets/08.png)
+
+Web URL: https://joshb4u.github.io/Hw4/
